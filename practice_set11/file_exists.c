@@ -10,5 +10,6 @@ if (ptr==NULL){
 else{
     printf("File exist");
 }
+fclose(ptr);
  return 0;
 }
